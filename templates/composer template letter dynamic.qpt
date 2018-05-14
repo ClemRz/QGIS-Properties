@@ -1,5 +1,5 @@
-<Composer title="carta oriz" visible="1">
- <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="279.4" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="215.9" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+<Composer title="dynamic" visible="1">
+ <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="300" paperWidth="215.9" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="279.4" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
    <layer pass="0" class="SimpleFill" locked="0">
     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -15,62 +15,52 @@
     <prop k="style" v="solid"/>
    </layer>
   </symbol>
-  <ComposerLabel valign="64" marginX="1" marginY="1" labelText="Autor: Clément Ronzon @2016&#xa;Datos: INEGI 2016&#xa;CRS: WGS84" htmlState="0" halign="1">
+  <ComposerLabel valign="64" marginX="1" marginY="1" labelText="Author: Clément Ronzon @2017&#xa;Data: OSM 2017&#xa;CRS: WGS84&#xa;Scale: 1:25,000" htmlState="0" halign="1">
    <LabelFont description="Arial,6,-1,5,50,1,0,0,0,0" style=""/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="36.251" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="158.005" y="262.151" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="50.5517" outlineWidth="0.3" excludeFromExports="0" uuid="{47e09f28-7a81-42d9-8e23-24f2bd0e4c05}" height="10.5729" itemRotation="0" frame="false" pagex="158.005">
+   <ComposerItem pagey="260.151" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="177.005" y="260.151" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="34.7763" outlineWidth="0.3" excludeFromExports="0" uuid="{94891689-e67d-49a5-aa1c-3b4540020fd9}" height="11.5685" itemRotation="0" frame="false" pagex="177.005">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <dataDefinedPositionX expr="CASE WHEN @atlas_feature IS NULL THEN 220.005 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 220.005 ELSE 158.005 END" field="" active="true" useExpr="true"/>
-    <dataDefinedPositionY expr="CASE WHEN @atlas_feature IS NULL THEN 199.151 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 199.151 ELSE 262.151 END" field="" active="true" useExpr="true"/>
+    <dataDefinedPositionX expr="CASE WHEN @atlas_feature IS NULL THEN 239.005 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 239.005 ELSE 177.005 END" field="" active="true" useExpr="true"/>
+    <dataDefinedPositionY expr="CASE WHEN @atlas_feature IS NULL THEN 197.151 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 197.151 ELSE 260.151 END" field="" active="true" useExpr="true"/>
     <customproperties/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerPicture resizeMode="0" pictureRotation="0" pictureWidth="11.2686" file="../QGIS_properties/imagenes/NorthArrow_08_10.81.svg" pictureHeight="22.5372" mapId="0" anchorPoint="0">
-   <ComposerItem pagey="24.576" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="148.942" y="250.476" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="12.7384" outlineWidth="0.3" excludeFromExports="0" uuid="{90ab7ee6-211c-4eb0-8379-bcaf96e8f0d1}" height="22.5372" itemRotation="1.31" frame="false" pagex="148.942">
+  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="11.2686" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="../../QGIS-Properties/images/NorthArrow_08_9.22.svg" northOffset="0" pictureHeight="22.5372" mapId="0" anchorPoint="0">
+   <ComposerItem pagey="250.476" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="168.942" y="250.476" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="12.7384" outlineWidth="0.3" excludeFromExports="0" uuid="{238943d2-e21a-45e7-afed-4f500d6de769}" height="22.5372" itemRotation="1.31" frame="false" pagex="168.942">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <dataDefinedPositionX expr="CASE WHEN @atlas_feature IS NULL THEN 210.942 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 210.942 ELSE 148.942 END" field="" active="true" useExpr="true"/>
+    <dataDefinedPositionX expr="CASE WHEN @atlas_feature IS NULL THEN 230.942 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 230.942 ELSE 168.942 END" field="" active="true" useExpr="true"/>
     <dataDefinedPositionY expr="CASE WHEN @atlas_feature IS NULL THEN 187.476 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 187.476 ELSE 250.476 END" field="" active="true" useExpr="true"/>
     <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
     <customproperties/>
    </ComposerItem>
   </ComposerPicture>
-  <ComposerPicture resizeMode="0" pictureRotation="0" pictureWidth="22.001" file="../QGIS_properties/imagenes/Logo CEAS.png" pictureHeight="22.001" mapId="-1" anchorPoint="0">
-   <ComposerItem pagey="25.413" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="189.555" y="251.313" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="22.001" outlineWidth="0.3" excludeFromExports="0" uuid="{7d61bdf4-c849-4bef-a098-c1998f2d2607}" height="22.001" itemRotation="0" frame="false" pagex="189.555">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <dataDefinedPositionX expr="CASE WHEN @atlas_feature IS NULL THEN 251.555 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 251.555 ELSE 189.555 END" field="" active="true" useExpr="true"/>
-    <dataDefinedPositionY expr="CASE WHEN @atlas_feature IS NULL THEN 188.313 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 188.313 ELSE 251.313 END" field="" active="true" useExpr="true"/>
-    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerPicture>
-  <ComposerLabel valign="32" marginX="0" marginY="2" labelText="Title [% @atlas_featurenumber %]/[% @atlas_totalfeatures %]  " htmlState="0" halign="4">
+  <ComposerLabel valign="32" marginX="-2" marginY="4" labelText="Chiricahua [% @atlas_featurenumber %]/[% @atlas_totalfeatures %]      " htmlState="0" halign="2">
    <LabelFont description="Arial Black,10,-1,5,75,0,0,0,0,0" style="Regular"/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="22.128" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="146.282" y="248.028" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="65.618" outlineWidth="0.2" excludeFromExports="0" uuid="{b0e88bcf-5f5c-4851-bb08-30ddbad92ab9}" height="26.5713" itemRotation="0" frame="true" pagex="146.282">
+   <ComposerItem pagey="248.028" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="166.282" y="248.028" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="45.3993" outlineWidth="0.2" excludeFromExports="0" uuid="{8b65f0d9-b221-4054-aeb9-0c7f8cb65790}" height="26.5713" itemRotation="0" frame="true" pagex="166.282">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <dataDefinedPositionX expr="CASE WHEN @atlas_feature IS NULL THEN 208.282 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 208.282 ELSE 146.282 END" field="" active="true" useExpr="true"/>
+    <dataDefinedPositionX expr="CASE WHEN @atlas_feature IS NULL THEN 228.282 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 228.282 ELSE 166.282 END" field="" active="true" useExpr="true"/>
     <dataDefinedPositionY expr="CASE WHEN @atlas_feature IS NULL THEN 185.028 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 185.028 ELSE 248.028 END" field="" active="true" useExpr="true"/>
     <customproperties/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerScaleBar lineCapStyle="square" style="Numeric" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="0" alignment="1" numSegments="2" segmentMillimeters="7.69234" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="500" units="1" labelBarSpace="1" outlineWidth="0.2" numSegmentsLeft="0" maxBarWidth="150" height="2" boxContentSpace="1" mapId="0" unitLabel="km">
+  <ComposerScaleBar lineCapStyle="square" style="Numeric" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="0" alignment="1" numSegments="2" segmentMillimeters="20.0515" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="500" units="1" labelBarSpace="1" outlineWidth="0.2" numSegmentsLeft="0" maxBarWidth="150" height="2" boxContentSpace="1" mapId="0" unitLabel="km">
    <scaleBarFont description="Arial,6,-1,5,50,0,0,0,0,0" style="Regular"/>
    <fillColor alpha="255" red="0" blue="0" green="0"/>
    <fillColor2 alpha="255" red="255" blue="255" green="255"/>
    <strokeColor alpha="255" red="0" blue="0" green="0"/>
    <textColor alpha="255" red="0" blue="0" green="0"/>
-   <ComposerItem pagey="42.873" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="4.521" y="268.773" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="47.4006" outlineWidth="0.3" excludeFromExports="0" uuid="{61867e31-5211-44b8-9662-bb22e8257998}" height="6.227" itemRotation="0" frame="false" pagex="4.521">
+   <ComposerItem pagey="268.773" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="4.521" y="268.773" visibility="0" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="47.4006" outlineWidth="0.3" excludeFromExports="0" uuid="{d8806b40-6c6b-42d9-9634-1cad7b05a304}" height="6.227" itemRotation="0" frame="false" pagex="4.521">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <dataDefinedPositionY expr="CASE WHEN @atlas_feature IS NULL THEN 205.773 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 205.773 ELSE 268.773 END" field="" active="true" useExpr="true"/>
     <customproperties/>
    </ComposerItem>
   </ComposerScaleBar>
-  <ComposerLegend symbolWidth="7" title="Leyenda" rasterBorderWidth="0" titleAlignment="4" map="0" wmsLegendWidth="50" rasterBorderColor="0,0,0,255" wrapChar="" fontColor="#000000" columnCount="1" legendFilterByMap="1" wmsLegendHeight="25" columnSpace="1" symbolHeight="4" equalColumnWidth="0" splitLayer="0" boxSpace="0.5" rasterBorder="1">
+  <ComposerLegend symbolWidth="7" title="Legend" rasterBorderWidth="0" titleAlignment="4" map="0" wmsLegendWidth="50" rasterBorderColor="0,0,0,255" wrapChar="" fontColor="#000000" legendFilterByAtlas="0" columnCount="1" legendFilterByMap="1" wmsLegendHeight="25" columnSpace="1" symbolHeight="4" equalColumnWidth="0" resizeToContents="1" splitLayer="0" boxSpace="0.5" rasterBorder="1">
    <styles>
     <style name="title">
      <styleFont description="Arial Black,6,-1,5,75,0,0,0,0,0" style="Regular"/>
@@ -90,32 +80,84 @@
    </styles>
    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="amenity20170831141328477" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/OSM/amenity.shp" name="amenity">
+     <customproperties>
+      <property key="legend/title-label" value=""/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="water20170831140632231" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/OSM/water.shp" name="water">
+     <customproperties>
+      <property key="legend/title-label" value=""/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="waterway20170902105200574" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/OSM/waterway.shp" name="waterway">
+     <customproperties>
+      <property key="legend/title-label" value="Water stream"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="trail20170831134110767" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/trail.shp" name="trail">
+     <customproperties>
+      <property key="legend/title-label" value="Planned itinerary"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="trail_actual20170919094335284" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/trail-actual.shp" name="trail-actual">
+     <customproperties>
+      <property key="legend/title-label" value="Actual itinerary"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="highway20170902105543311" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/OSM/highway.shp" name="highway">
+     <customproperties>
+      <property key="legend/title-label" value=""/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="contour20170831113446696" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/DEM/ASTGTM2_N31-32W110_dem-clipped-contour_20m.tif/contour.shp" name="contour">
+     <customproperties>
+      <property key="legend/label-0" value="Master level curve (100m)"/>
+      <property key="legend/label-1" value="Ordinary level curve (20m)"/>
+      <property key="legend/title-label" value=""/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="boundaries20170902110511999" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/OSM/boundaries.shp" name="boundaries">
+     <customproperties>
+      <property key="legend/title-label" value=""/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="N32_33W110_16_C_F02DAR_clipped_poygonized20170831115439648" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/Forest/N32-33W110_16_C_F02DAR-clipped-poygonized" name="forest">
+     <customproperties>
+      <property key="legend/title-label" value="Forest"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="water_A20170901160604930" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/OSM/water_A.shp" name="water_A">
+     <customproperties>
+      <property key="legend/title-label" value="Water"/>
+     </customproperties>
+    </layer-tree-layer>
    </layer-tree-group>
-   <ComposerItem pagey="30.7901" page="2" id="" lastValidViewScaleFactor="-1" positionMode="6" positionLock="false" x="4.521" y="256.69" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="11.6469" outlineWidth="0.2" excludeFromExports="0" uuid="{0f0b5823-a1f9-4972-96ec-491c542ce817}" height="5.36094" itemRotation="0" frame="true" pagex="4.521">
+   <ComposerItem pagey="269.039" page="1" id="" lastValidViewScaleFactor="-1" positionMode="6" positionLock="false" x="4.521" y="269.039" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.4516" outlineWidth="0.2" excludeFromExports="0" uuid="{48be37df-f46f-4c56-ae10-648d9b4ffd93}" height="5.36094" itemRotation="0" frame="true" pagex="4.521">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <dataDefinedPositionY expr="CASE WHEN @atlas_feature IS NULL THEN 199.051 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 199.051 ELSE 262.051 END" field="" active="true" useExpr="true"/>
+    <dataDefinedPositionY expr="CASE WHEN @atlas_feature IS NULL THEN 211.4 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 211.4 ELSE 262.051 + 12.349 END" field="" active="true" useExpr="true"/>
     <customproperties/>
    </ComposerItem>
   </ComposerLegend>
-  <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="1" alignment="0" numSegments="2" segmentMillimeters="15.3847" lineJoinStyle="miter" minBarWidth="0" numUnitsPerSegment="1000" units="1" labelBarSpace="1" outlineWidth="0.2" numSegmentsLeft="0" maxBarWidth="45" height="2" boxContentSpace="1" mapId="0" unitLabel="km">
+  <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="1" alignment="0" numSegments="2" segmentMillimeters="20.0515" lineJoinStyle="miter" minBarWidth="0" numUnitsPerSegment="500" units="1" labelBarSpace="1" outlineWidth="0.2" numSegmentsLeft="0" maxBarWidth="45" height="2" boxContentSpace="1" mapId="0" unitLabel="km">
    <scaleBarFont description="Arial,6,-1,5,50,0,0,0,0,0" style="Regular"/>
    <fillColor alpha="255" red="0" blue="0" green="0"/>
    <fillColor2 alpha="255" red="255" blue="255" green="255"/>
    <strokeColor alpha="255" red="0" blue="0" green="0"/>
    <textColor alpha="255" red="0" blue="0" green="0"/>
-   <ComposerItem pagey="36.351" page="2" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="4.521" y="262.251" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="37.7178" outlineWidth="0.2" excludeFromExports="0" uuid="{875055de-47de-4444-8d7c-642d314c4f68}" height="12.3491" itemRotation="0" frame="true" pagex="4.521">
+   <ComposerItem pagey="262.251" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="4.521" y="262.251" visibility="0" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="47.0514" outlineWidth="0.2" excludeFromExports="0" uuid="{e4d25e55-a94b-4077-970b-d1e15efca32b}" height="12.3491" itemRotation="0" frame="true" pagex="4.521">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <dataDefinedPositionY expr="CASE WHEN @atlas_feature IS NULL THEN 199.251 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 199.251 ELSE 262.251 END" field="" active="true" useExpr="true"/>
     <customproperties/>
    </ComposerItem>
   </ComposerScaleBar>
-  <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
-   <Extent ymin="46559.41846166987670586" xmin="-6813.88461346738677094" ymax="64065.44960793069913052" xmax="6586.11540020061420364"/>
+  <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="false" followPresetName="" id="0" previewMode="Cache" drawCanvasItems="true">
+   <Extent ymin="2386933.38664826983585954" xmin="435485.08565023029223084" ymax="2393628.79035159712657332" xmax="440610.08565545780584216"/>
    <LayerSet/>
    <Grid/>
-   <ComposerMapGrid rightAnnotationDirection="1" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="0" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{fc63f13e-72ff-4e4c-8dd0-c088fc2f262d}" leftAnnotationDirection="1" topAnnotationPosition="0" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="1" annotationFontColor="0,0,0,255" intervalX="0.01666666667" gridFrameSideFlags="15" intervalY="0.01666666667" bottomAnnotationDirection="0" leftAnnotationDisplay="3" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="@grid_number " frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.20000000000000001" bottomAnnotationDisplay="3" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="0" blendMode="0" gridFrameStyle="1" rightAnnotationPosition="0" gridFrameWidth="1" name="WGS84" annotationFormat="6" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+   <ComposerMapGrid rightAnnotationDirection="1" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="0" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{fc63f13e-72ff-4e4c-8dd0-c088fc2f262d}" leftAnnotationDirection="1" topAnnotationPosition="0" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="1" annotationFontColor="0,0,0,255" intervalX="0.008333333333" gridFrameSideFlags="15" intervalY="0.008333333333" bottomAnnotationDirection="0" leftAnnotationDisplay="3" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="@grid_number " frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.20000000000000001" bottomAnnotationDisplay="3" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="0" blendMode="0" gridFrameStyle="1" rightAnnotationPosition="0" gridFrameWidth="1" name="WGS84" annotationFormat="6" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
     <lineStyle>
      <symbol alpha="0.745098" clip_to_extent="1" type="line" name="">
       <layer pass="0" class="SimpleLine" locked="0">
@@ -143,6 +185,7 @@
        <prop k="angle" v="0"/>
        <prop k="color" v="0,0,0,255"/>
        <prop k="horizontal_anchor_point" v="1"/>
+       <prop k="joinstyle" v="bevel"/>
        <prop k="name" v="circle"/>
        <prop k="offset" v="0,0"/>
        <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -173,7 +216,7 @@
     <annotationFontProperties description="Arial,10,-1,5,50,0,0,0,0,0" style=""/>
    </ComposerMapGrid>
    <AtlasMap scalingMode="0" atlasDriven="1" margin="0.10000000000000001"/>
-   <ComposerItem pagey="5.4" page="1" id="" lastValidViewScaleFactor="2.48533" positionMode="0" positionLock="false" x="5.4" y="5.4" visibility="1" zValue="1" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="205.6" outlineWidth="3.3" excludeFromExports="0" uuid="{ee1b2c7a-7287-47a4-937c-d7e54fcc3ee0}" height="268.6" itemRotation="0" frame="false" pagex="5.4">
+   <ComposerItem pagey="5.4" page="1" id="" lastValidViewScaleFactor="2.48533" positionMode="0" positionLock="false" x="5.4" y="5.4" visibility="1" zValue="1" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="205.6" outlineWidth="3.3" excludeFromExports="0" uuid="{ce4080f4-393e-4e7a-a7c7-9347df5e160a}" height="268.6" itemRotation="0" frame="false" pagex="5.4">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <dataDefinedWidth expr="CASE WHEN @atlas_feature IS NULL THEN 268.6 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 268.6 ELSE 205.6 END" field="" active="true" useExpr="true"/>
@@ -185,5 +228,5 @@
   <dataDefinedPaperOrientation expr="CASE WHEN @atlas_feature IS NULL THEN 'Landscape' ELSE attribute(@atlas_feature, 'orient') END" field="" active="true" useExpr="true"/>
   <customproperties/>
  </Composition>
- <Atlas hideCoverage="false" coverageLayer="atlas" singleFile="true" filenamePattern="output" enabled="true" filterFeatures="false" sortFeatures="false" pageNameExpression="id"/>
+ <Atlas hideCoverage="false" coverageLayer="atlas20171006084723735" singleFile="true" filenamePattern="output" enabled="true" coverageLayerName="atlas" filterFeatures="false" coverageLayerProvider="ogr" sortFeatures="true" pageNameExpression="id" sortKey="id" coverageLayerSource="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/atlas.shp" sortAscending="true"/>
 </Composer>
