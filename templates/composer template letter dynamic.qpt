@@ -1,5 +1,5 @@
 <Composer title="dynamic" visible="1">
- <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="300" paperWidth="215.9" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="279.4" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+ <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="300" paperWidth="279.4" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="215.9" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
    <layer pass="0" class="SimpleFill" locked="0">
     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -15,10 +15,10 @@
     <prop k="style" v="solid"/>
    </layer>
   </symbol>
-  <ComposerLabel valign="64" marginX="1" marginY="1" labelText="Author: Clément Ronzon @2017&#xa;Data: OSM 2017&#xa;CRS: WGS84&#xa;Scale: 1:25,000" htmlState="0" halign="1">
+  <ComposerLabel valign="64" marginX="1" marginY="1" labelText="Autor: Clément Ronzon @2018&#xa;Datos: INEGI 2003&#xa;CRS: WGS84&#xa;Scale: 1:25,000" htmlState="0" halign="1">
    <LabelFont description="Arial,6,-1,5,50,1,0,0,0,0" style=""/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="260.151" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="177.005" y="260.151" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="34.7763" outlineWidth="0.3" excludeFromExports="0" uuid="{94891689-e67d-49a5-aa1c-3b4540020fd9}" height="11.5685" itemRotation="0" frame="false" pagex="177.005">
+   <ComposerItem pagey="197.151" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="239.005" y="197.151" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="34.7763" outlineWidth="0.3" excludeFromExports="0" uuid="{8202c558-022e-4690-b6af-eb51da5c97f4}" height="11.5685" itemRotation="0" frame="false" pagex="239.005">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <dataDefinedPositionX expr="CASE WHEN @atlas_feature IS NULL THEN 239.005 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 239.005 ELSE 177.005 END" field="" active="true" useExpr="true"/>
@@ -26,8 +26,8 @@
     <customproperties/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="11.2686" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="../../QGIS-Properties/images/NorthArrow_08_9.22.svg" northOffset="0" pictureHeight="22.5372" mapId="0" anchorPoint="0">
-   <ComposerItem pagey="250.476" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="168.942" y="250.476" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="12.7384" outlineWidth="0.3" excludeFromExports="0" uuid="{238943d2-e21a-45e7-afed-4f500d6de769}" height="22.5372" itemRotation="1.31" frame="false" pagex="168.942">
+  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="11.2686" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="../../QGIS-Properties/images/NorthArrow_08_9.69.svg" northOffset="0" pictureHeight="22.5372" mapId="0" anchorPoint="0">
+   <ComposerItem pagey="187.476" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="230.942" y="187.476" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="12.7384" outlineWidth="0.3" excludeFromExports="0" uuid="{bccbc2e9-368a-4732-8f3c-1aee6572f6ff}" height="22.5372" itemRotation="1.31" frame="false" pagex="230.942">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <dataDefinedPositionX expr="CASE WHEN @atlas_feature IS NULL THEN 230.942 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 230.942 ELSE 168.942 END" field="" active="true" useExpr="true"/>
@@ -36,10 +36,10 @@
     <customproperties/>
    </ComposerItem>
   </ComposerPicture>
-  <ComposerLabel valign="32" marginX="-2" marginY="4" labelText="Chiricahua [% @atlas_featurenumber %]/[% @atlas_totalfeatures %]      " htmlState="0" halign="2">
+  <ComposerLabel valign="32" marginX="-2" marginY="2" labelText="         Playa San Bartolo&#xa;      [% @atlas_featurenumber %]/[% @atlas_totalfeatures %]" htmlState="0" halign="4">
    <LabelFont description="Arial Black,10,-1,5,75,0,0,0,0,0" style="Regular"/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="248.028" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="166.282" y="248.028" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="45.3993" outlineWidth="0.2" excludeFromExports="0" uuid="{8b65f0d9-b221-4054-aeb9-0c7f8cb65790}" height="26.5713" itemRotation="0" frame="true" pagex="166.282">
+   <ComposerItem pagey="185.028" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="228.282" y="185.028" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="45.3993" outlineWidth="0.2" excludeFromExports="0" uuid="{478f96a5-d640-4b84-b763-03cc2561d70d}" height="26.5713" itemRotation="0" frame="true" pagex="228.282">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <dataDefinedPositionX expr="CASE WHEN @atlas_feature IS NULL THEN 228.282 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 228.282 ELSE 166.282 END" field="" active="true" useExpr="true"/>
@@ -47,20 +47,20 @@
     <customproperties/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerScaleBar lineCapStyle="square" style="Numeric" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="0" alignment="1" numSegments="2" segmentMillimeters="20.0515" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="500" units="1" labelBarSpace="1" outlineWidth="0.2" numSegmentsLeft="0" maxBarWidth="150" height="2" boxContentSpace="1" mapId="0" unitLabel="km">
+  <ComposerScaleBar lineCapStyle="square" style="Numeric" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="0" alignment="1" numSegments="2" segmentMillimeters="15.437" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="500" units="1" labelBarSpace="1" outlineWidth="0.2" numSegmentsLeft="0" maxBarWidth="150" height="2" boxContentSpace="1" mapId="0" unitLabel="km">
    <scaleBarFont description="Arial,6,-1,5,50,0,0,0,0,0" style="Regular"/>
    <fillColor alpha="255" red="0" blue="0" green="0"/>
    <fillColor2 alpha="255" red="255" blue="255" green="255"/>
    <strokeColor alpha="255" red="0" blue="0" green="0"/>
    <textColor alpha="255" red="0" blue="0" green="0"/>
-   <ComposerItem pagey="268.773" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="4.521" y="268.773" visibility="0" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="47.4006" outlineWidth="0.3" excludeFromExports="0" uuid="{d8806b40-6c6b-42d9-9634-1cad7b05a304}" height="6.227" itemRotation="0" frame="false" pagex="4.521">
+   <ComposerItem pagey="205.773" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="4.521" y="205.773" visibility="0" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="47.4006" outlineWidth="0.3" excludeFromExports="0" uuid="{34a64a13-ae46-4beb-8616-30dfc1f642a8}" height="6.227" itemRotation="0" frame="false" pagex="4.521">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <dataDefinedPositionY expr="CASE WHEN @atlas_feature IS NULL THEN 205.773 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 205.773 ELSE 268.773 END" field="" active="true" useExpr="true"/>
     <customproperties/>
    </ComposerItem>
   </ComposerScaleBar>
-  <ComposerLegend symbolWidth="7" title="Legend" rasterBorderWidth="0" titleAlignment="4" map="0" wmsLegendWidth="50" rasterBorderColor="0,0,0,255" wrapChar="" fontColor="#000000" legendFilterByAtlas="0" columnCount="1" legendFilterByMap="1" wmsLegendHeight="25" columnSpace="1" symbolHeight="4" equalColumnWidth="0" resizeToContents="1" splitLayer="0" boxSpace="0.5" rasterBorder="1">
+  <ComposerLegend symbolWidth="7" title="Leyenda" rasterBorderWidth="0" titleAlignment="4" map="0" wmsLegendWidth="50" rasterBorderColor="0,0,0,255" wrapChar="" fontColor="#000000" legendFilterByAtlas="1" columnCount="1" legendFilterByMap="1" wmsLegendHeight="25" columnSpace="1" symbolHeight="4" equalColumnWidth="0" resizeToContents="1" splitLayer="0" boxSpace="0.5" rasterBorder="1">
    <styles>
     <style name="title">
      <styleFont description="Arial Black,6,-1,5,75,0,0,0,0,0" style="Regular"/>
@@ -78,75 +78,128 @@
      <styleFont description="Arial,5,-1,5,50,0,0,0,0,0" style="Regular"/>
     </style>
    </styles>
-   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="amenity20170831141328477" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/OSM/amenity.shp" name="amenity">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="tanque_agua50_p20170425111605217" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/INEGI/tanque_agua50_p.shp" name="tanque_agua50_p">
+     <customproperties>
+      <property key="legend/title-label" value="Tanque de agua"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="ins_comunica50_p20170425111604548" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/INEGI/ins_comunica50_p.shp" name="ins_comunica50_p">
+     <customproperties>
+      <property key="legend/title-label" value="Instal. de com."/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="edificacion50_p20170425111604433" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/INEGI/edificacion50_p.shp" name="edificacion50_p">
+     <customproperties>
+      <property key="legend/title-label" value="Edif. aisladas"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="acceso20180514114800528" source="/Users/cronzon/Dropbox/Outdoor/San Bartolo/acceso.kml" name="acceso Untitled layer LineString">
+     <customproperties>
+      <property key="legend/title-label" value="Acceso en 4x4"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="San_Bartolo___wikiloc_Laguna_San_Bartolo_LineString20180514113003093" source="/Users/cronzon/Dropbox/Outdoor/San Bartolo/San Bartolo - wikiloc.kml|layername=Laguna San Bartolo|geometrytype=LineString" name="San Bartolo - wikiloc Laguna San Bartolo LineString">
+     <customproperties>
+      <property key="legend/title-label" value="Recorrido actual"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="Laguna_de_San_Bartolo_Laguna_de_San_Bartolo_9c0b99c6_3274_4b9f_b5e8_4ca85bca890a" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/Laguna de San Bartolo.kmz|layername=Laguna de San Bartolo|geometrytype=LineString" name="Laguna de San Bartolo Laguna de San Bartolo">
+     <customproperties>
+      <property key="legend/title-label" value="Recorrido planeado"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="linea_trans50_l20170425111604756" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/INEGI/linea_trans50_l.shp" name="linea_trans50_l">
+     <customproperties>
+      <property key="legend/title-label" value="Linea transm."/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="linea_com50_l20170425111604713" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/INEGI/linea_com50_l.shp" name="linea_com50_l">
+     <customproperties>
+      <property key="legend/title-label" value="Linea com."/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="lindero50_l20170425111604674" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/INEGI/lindero50_l.shp" name="lindero50_l">
+     <customproperties>
+      <property key="legend/title-label" value="Lindero"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="corriente_ag50_l20170425111604224" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/INEGI/corriente_ag50_l.shp" name="corriente_ag50_l">
      <customproperties>
       <property key="legend/title-label" value=""/>
      </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="water20170831140632231" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/OSM/water.shp" name="water">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="carretera50_l20170425111604090" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/INEGI/carretera50_l.shp" name="carretera50_l">
      <customproperties>
       <property key="legend/title-label" value=""/>
      </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="waterway20170902105200574" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/OSM/waterway.shp" name="waterway">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="canal50_l20170425111604059" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/INEGI/canal50_l.shp" name="canal50_l">
      <customproperties>
-      <property key="legend/title-label" value="Water stream"/>
+      <property key="legend/title-label" value="Canal"/>
      </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="trail20170831134110767" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/trail.shp" name="trail">
-     <customproperties>
-      <property key="legend/title-label" value="Planned itinerary"/>
-     </customproperties>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="trail_actual20170919094335284" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/trail-actual.shp" name="trail-actual">
-     <customproperties>
-      <property key="legend/title-label" value="Actual itinerary"/>
-     </customproperties>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="highway20170902105543311" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/OSM/highway.shp" name="highway">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="camino50_l20170425111604028" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/INEGI/camino50_l.shp" name="camino50_l">
      <customproperties>
       <property key="legend/title-label" value=""/>
      </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="contour20170831113446696" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/DEM/ASTGTM2_N31-32W110_dem-clipped-contour_20m.tif/contour.shp" name="contour">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="calle50_l20170425111603997" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/INEGI/calle50_l.shp" name="calle50_l">
      <customproperties>
-      <property key="legend/label-0" value="Master level curve (100m)"/>
-      <property key="legend/label-1" value="Ordinary level curve (20m)"/>
+      <property key="legend/title-label" value="Calle"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="bordo50_l20170425111603967" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/INEGI/bordo50_l.shp" name="bordo50_l">
+     <customproperties>
+      <property key="legend/title-label" value="Bordo"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="acueducto50_l20170425111603730" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/INEGI/acueducto50_l.shp" name="acueducto50_l">
+     <customproperties>
+      <property key="legend/title-label" value="Acueducto"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="ASTGTM2_N28_29W112_113_dem_clipped_contour20170425113030088" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/DEM/ASTGTM2_N28-29W112-113_dem_clipped_contour" name="ASTGTM2_N28-29W112-113_dem_clipped_contour">
+     <customproperties>
       <property key="legend/title-label" value=""/>
      </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="boundaries20170902110511999" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/OSM/boundaries.shp" name="boundaries">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="estanque50_a20170425111604469" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/INEGI/estanque50_a.shp" name="estanque50_a">
+     <customproperties>
+      <property key="legend/title-label" value="Estanque"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="cuerpo_agua50_a20170425111604291" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/INEGI/cuerpo_agua50_a.shp" name="cuerpo_agua50_a">
      <customproperties>
       <property key="legend/title-label" value=""/>
      </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="N32_33W110_16_C_F02DAR_clipped_poygonized20170831115439648" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/Forest/N32-33W110_16_C_F02DAR-clipped-poygonized" name="forest">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="area_cultiv50_a20170425111603902" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/INEGI/area_cultiv50_a.shp" name="area_cultiv50_a">
      <customproperties>
-      <property key="legend/title-label" value="Forest"/>
+      <property key="legend/title-label" value="Cultivos"/>
      </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="water_A20170901160604930" source="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/OSM/water_A.shp" name="water_A">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="aeropuerto50_a20170425111603868" source="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/INEGI/aeropuerto50_a.shp" name="aeropuerto50_a">
      <customproperties>
-      <property key="legend/title-label" value="Water"/>
+      <property key="legend/title-label" value="Aeropuerto"/>
      </customproperties>
     </layer-tree-layer>
    </layer-tree-group>
-   <ComposerItem pagey="269.039" page="1" id="" lastValidViewScaleFactor="-1" positionMode="6" positionLock="false" x="4.521" y="269.039" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.4516" outlineWidth="0.2" excludeFromExports="0" uuid="{48be37df-f46f-4c56-ae10-648d9b4ffd93}" height="5.36094" itemRotation="0" frame="true" pagex="4.521">
+   <ComposerItem pagey="164.211" page="1" id="" lastValidViewScaleFactor="-1" positionMode="6" positionLock="false" x="4.521" y="164.211" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="33.2875" outlineWidth="0.2" excludeFromExports="0" uuid="{31b7d28d-937a-4024-8d8b-bc64c9286107}" height="47.1891" itemRotation="0" frame="true" pagex="4.521">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <dataDefinedPositionY expr="CASE WHEN @atlas_feature IS NULL THEN 211.4 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 211.4 ELSE 262.051 + 12.349 END" field="" active="true" useExpr="true"/>
     <customproperties/>
    </ComposerItem>
   </ComposerLegend>
-  <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="1" alignment="0" numSegments="2" segmentMillimeters="20.0515" lineJoinStyle="miter" minBarWidth="0" numUnitsPerSegment="500" units="1" labelBarSpace="1" outlineWidth="0.2" numSegmentsLeft="0" maxBarWidth="45" height="2" boxContentSpace="1" mapId="0" unitLabel="km">
+  <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="1" alignment="0" numSegments="2" segmentMillimeters="21.6118" lineJoinStyle="miter" minBarWidth="0" numUnitsPerSegment="700" units="1" labelBarSpace="1" outlineWidth="0.2" numSegmentsLeft="0" maxBarWidth="45" height="2" boxContentSpace="1" mapId="0" unitLabel="km">
    <scaleBarFont description="Arial,6,-1,5,50,0,0,0,0,0" style="Regular"/>
    <fillColor alpha="255" red="0" blue="0" green="0"/>
    <fillColor2 alpha="255" red="255" blue="255" green="255"/>
    <strokeColor alpha="255" red="0" blue="0" green="0"/>
    <textColor alpha="255" red="0" blue="0" green="0"/>
-   <ComposerItem pagey="262.251" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="4.521" y="262.251" visibility="0" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="47.0514" outlineWidth="0.2" excludeFromExports="0" uuid="{e4d25e55-a94b-4077-970b-d1e15efca32b}" height="12.3491" itemRotation="0" frame="true" pagex="4.521">
+   <ComposerItem pagey="199.251" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="4.521" y="199.251" visibility="0" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="51.047" outlineWidth="0.2" excludeFromExports="0" uuid="{c372ec9b-1446-42a5-be1c-3bc0cf03b47e}" height="12.3491" itemRotation="0" frame="true" pagex="4.521">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <dataDefinedPositionY expr="CASE WHEN @atlas_feature IS NULL THEN 199.251 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 199.251 ELSE 262.251 END" field="" active="true" useExpr="true"/>
@@ -154,7 +207,7 @@
    </ComposerItem>
   </ComposerScaleBar>
   <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="false" followPresetName="" id="0" previewMode="Cache" drawCanvasItems="true">
-   <Extent ymin="2386933.38664826983585954" xmin="435485.08565023029223084" ymax="2393628.79035159712657332" xmax="440610.08565545780584216"/>
+   <Extent ymin="2389320.85543989716097713" xmin="438047.55506081494968385" ymax="2389320.90227326424792409" xmax="438047.61624487314838916"/>
    <LayerSet/>
    <Grid/>
    <ComposerMapGrid rightAnnotationDirection="1" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="0" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{fc63f13e-72ff-4e4c-8dd0-c088fc2f262d}" leftAnnotationDirection="1" topAnnotationPosition="0" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="1" annotationFontColor="0,0,0,255" intervalX="0.008333333333" gridFrameSideFlags="15" intervalY="0.008333333333" bottomAnnotationDirection="0" leftAnnotationDisplay="3" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="@grid_number " frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.20000000000000001" bottomAnnotationDisplay="3" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="0" blendMode="0" gridFrameStyle="1" rightAnnotationPosition="0" gridFrameWidth="1" name="WGS84" annotationFormat="6" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
@@ -216,7 +269,7 @@
     <annotationFontProperties description="Arial,10,-1,5,50,0,0,0,0,0" style=""/>
    </ComposerMapGrid>
    <AtlasMap scalingMode="0" atlasDriven="1" margin="0.10000000000000001"/>
-   <ComposerItem pagey="5.4" page="1" id="" lastValidViewScaleFactor="2.48533" positionMode="0" positionLock="false" x="5.4" y="5.4" visibility="1" zValue="1" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="205.6" outlineWidth="3.3" excludeFromExports="0" uuid="{ce4080f4-393e-4e7a-a7c7-9347df5e160a}" height="268.6" itemRotation="0" frame="false" pagex="5.4">
+   <ComposerItem pagey="5.4" page="1" id="" lastValidViewScaleFactor="2.73656" positionMode="0" positionLock="false" x="5.4" y="5.4" visibility="1" zValue="1" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="268.6" outlineWidth="3.3" excludeFromExports="0" uuid="{94358f61-9028-4c6b-be2b-037c4d43c5cd}" height="205.6" itemRotation="0" frame="false" pagex="5.4">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <dataDefinedWidth expr="CASE WHEN @atlas_feature IS NULL THEN 268.6 WHEN attribute(@atlas_feature, 'orient') = 'Landscape' THEN 268.6 ELSE 205.6 END" field="" active="true" useExpr="true"/>
@@ -228,5 +281,5 @@
   <dataDefinedPaperOrientation expr="CASE WHEN @atlas_feature IS NULL THEN 'Landscape' ELSE attribute(@atlas_feature, 'orient') END" field="" active="true" useExpr="true"/>
   <customproperties/>
  </Composition>
- <Atlas hideCoverage="false" coverageLayer="atlas20171006084723735" singleFile="true" filenamePattern="output" enabled="true" coverageLayerName="atlas" filterFeatures="false" coverageLayerProvider="ogr" sortFeatures="true" pageNameExpression="id" sortKey="id" coverageLayerSource="/Users/cronzon/Documents/Topographic-Maps/maps/Chiricahua/atlas.shp" sortAscending="true"/>
+ <Atlas hideCoverage="true" coverageLayer="atlas20170310094036075" singleFile="true" filenamePattern="output" enabled="true" coverageLayerName="atlas" filterFeatures="false" coverageLayerProvider="ogr" sortFeatures="true" pageNameExpression="id" sortKey="id" coverageLayerSource="/Users/cronzon/Documents/Topographic-Maps/maps/Playa San Bartolo/atlas/atlas.shp" sortAscending="true"/>
 </Composer>
