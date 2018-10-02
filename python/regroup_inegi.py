@@ -7,7 +7,7 @@ from os.path import isfile, join
 import doMergeShapes
 
 def run_script(iface):
-	root = "/Users/cronzon/Dropbox/CEAS/Mapas topo/Playa San Bartolo/INEGI copy"
+	root = "/Users/cronzon/Documents/Topographic-Maps/maps/Aconchi - Rayon/INEGI copy"
 	inEncoding = "System"
 	encoding = QSettings().value("/UI/encoding")
 
@@ -18,16 +18,29 @@ def run_script(iface):
 		zip_ref = zipfile.ZipFile(compressedpath, "r")
 		zip_ref.extractall(path)
 		os.remove(compressedpath)
+		
 		if os.path.exists(join(path, "metadatos")):
 			shutil.rmtree(join(path, "metadatos"))
 		if os.path.exists(join(path, "diccionario_de_datos")):
 			shutil.rmtree(join(path, "diccionario_de_datos"))
-		datapath = join(path, "conjunto_de_datos")
+		if os.path.exists(join(path, "conjunto_de_datos")):
+			datapath = join(path, "conjunto_de_datos")
+		else:
+			datapath = path
 		for filename in filter(lambda s: not s.startswith(".") and isfile(join(datapath, s)), os.listdir(datapath)):
-			newPath = join(root,  filename.split(".")[0])
+			if len(filename.split(".")) > 2:
+				continue
+			cleanFilename = filename.split(".")[0]
+			if cleanFilename.startswith(folder.lower()):
+				n = len(folder) + 1
+				cleanFilename = cleanFilename[n:-4]
+			if cleanFilename == "continuo_curva_l":
+				cleanFilename = "curva_nivel50_l"
+			newPath = join(root,  cleanFilename)
 			if not os.path.exists(newPath):
 				os.makedirs(newPath)
-			os.rename(join(datapath, filename), join(newPath, folder + "-" + filename))
+			cleanFilename = "{}-{}.{}".format(folder, cleanFilename, filename.split(".")[1])
+			os.rename(join(datapath, filename), join(newPath, cleanFilename))
 		shutil.rmtree(path)
 
 	for folder in filter(lambda s: not s.startswith(".") and not isfile(join(root, s)), os.listdir(root)):
@@ -68,12 +81,12 @@ class ThreadManager:
 
 	def start(self):
 		self.myPrint("Generating " + self.output)
-		# QObject.connect(self.mergeThread, SIGNAL("featureProcessed()"), self.featureProcessed)
-		# QObject.connect(self.mergeThread, SIGNAL("shapeProcessed()"), self.shapeProcessed)
-		QObject.connect(self.mergeThread, SIGNAL("processingFinished()"), self.processingFinished)
-		QObject.connect(self.mergeThread, SIGNAL("processingInterrupted()"), self.processingInterrupted)
-		print self.mergeThread.start()
+		#QObject.connect(self.mergeThread, SIGNAL("featureProcessed()"), self.featureProcessed)
+		#QObject.connect(self.mergeThread, SIGNAL("shapeProcessed()"), self.shapeProcessed)
+		#QObject.connect(self.mergeThread, SIGNAL("processingFinished()"), self.processingFinished)
+		#QObject.connect(self.mergeThread, SIGNAL("processingInterrupted()"), self.processingInterrupted)
+		self.mergeThread.start()
 		# self.mergeThread.wait()
 
 	def myPrint(self, str="None"):
-		print "[" + self.id + "] " + str + "\n"
+		print "[{}] {}\n".format(self.id, str)
