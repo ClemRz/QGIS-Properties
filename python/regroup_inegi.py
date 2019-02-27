@@ -7,7 +7,7 @@ from os.path import isfile, join
 import doMergeShapes
 
 def run_script(iface):
-	root = "/Users/cronzon/Documents/Topographic-Maps/maps/Aconchi - Rayon/INEGI copy"
+	root = "/Users/cronzon/Documents/Topographic-Maps/maps/Arroyo la Poza/INEGI copy"
 	inEncoding = "System"
 	encoding = QSettings().value("/UI/encoding")
 
